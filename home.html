@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Home gallery</title>
+  </head>
+  <body class="d-flex h-100 text-center bg-dark">
+    <div class="container w-100 h-100 p-3 mx-auto">
+    
+      <!--Nav bar start-->
+      <nav
+        class="
+          navbar navbar-expand-lg navbar-dark
+          bg-dark
+          border border-success
+          rounded-3
+          border-2
+          fixed-top 
+          mx-3
+          
+        "
+      >
+        <div class="container-fluid ">
+          <a class="navbar-brand changeBrand" href="home.html">B & W</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active changeFont"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link changeFont"
+                  href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#registerModal"
+                  >Register</a
+                >
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle changeFont"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Other
+                </a>
+                <ul
+                  class="dropdown-menu bg-success"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item text-light" href="#">Contact us</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-light" href="#"
+                      >Request image</a
+                    >
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item text-light" href="#">Log out</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link changeFont" href="#footer">About us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2 w-100"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <br>
+      
+      
+     <!--Carsul start-->
+     <div id="carouselExampleIndicators" class="carousel slide carousel-fade w-100" data-bs-ride="carousel" style="margin-top: 3em;">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      
+      <div class="carousel-inner rounded-3"  style=" width:100%; height: 100% !important;">
+        <div class="carousel-item active">
+          <img src="re/carsul4.jpg" class="d-block w-100" alt="first image">
+        </div>
+        <div class="carousel-item">
+          <img src="re/carsul2.jpg" class="d-block w-100" alt="second image">
+        </div>
+        <div class="carousel-item">
+          <img src="re/carsul3.jpg" class="d-block w-100" alt="third image">
+        </div>
+        <div class="carousel-item">
+          <img src="re/carsul5.jpg" class="d-block w-100" alt="third image">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden ">Next</span>
+      </button>
+    </div><br><br>
+    <!--main gallery start-->
+    <div class="row bg-light rounded-3" id="join">
+      <div class="col-lg-8">
+        <h1 style="margin-top: 2em;">Join us</h1>
+        <h4> Here at our museum based gallery you can find away more than just photos with black and white colors, you will find some will bicked art
+          avery fine images for alot of talented photograohers from all around the world in different ages. 
+        </h4><br>
+        <h2>
+          a world of black and white just for you
+        </h2><br>
+        <a
+        id="log"
+        type="button"
+        class="btn btn-success btn-lg m-5"
+        href="#tourGallery"
+      >
+        Start your tour</a>
+      
+      </div>
+      <div class="col-lg-4 d-none d-sm-block">
+        <img src="re/3.jpg" style="width: 100%;">
+      </div>
+      </div>
+      <br><br>
+      
+      <div class="row py-2" id="tourGallery">
+        <div class="text-start">
+          <h1>Get ready to be impressed</h1>
+        </div>
+        <div class="col-lg-4 col-xs-12">
+         <img src="re/1.jpg"style="width: 100%;" class="py-3 hover-shadow rounded-3">
+         <img src="re/2.jpg"style="width: 100%;"class="py-3 hover-shadow rounded-3">
+         <img src="re/3.jpg"style="width: 100%;"class="py-3 hover-shadow rounded-3">
+        </div>
+        <div class="col-lg-4 col-xs-12">
+          <img src="re/4.jpg"style="width: 100%;"class="py-3 hover-shadow rounded-3">
+          <img src="re/5.jpg"style="width: 100%;"class="py-3 hover-shadow rounded-3">
+          <img src="re/6.jpg"style="width: 100%;"class="py-3 hover-shadow rounded-3">
+        </div>
+        <div class="col-lg-4 col-xs-12">
+          <img src="re/7.jpg"style="width: 100%;"class="py-3 hover-shadow rounded-3">
+          <img src="re/8.jpg"style="width: 100%;"class="py-3 hover-shadow rounded-3">
+          <img src="re/9.jpg"style="width: 100%;"class="py-3 hover-shadow rounded-3">
+        </div>
+      </div>
+      <div class="row bg-light rounded-3" id="join">
+        <div class="col-lg-4 col-xs-12">
+     
+          <img src="re/me.jpg" style="width: 100%;">
+        </div>
+        <!--footer-->
+        <div class="col-lg-8" id="footer">
+          <h1 style="margin-top: 2em;">About us</h1>
+          <h4> Thank you for giving us your lovely time here
+          </h4>
+          <h2>
+            a world of black and white just for you
+          </h2>
+          <a
+          id="log"
+          type="button"
+          class="btn btn-success btn-lg m-5"
+          href="#carouselExampleIndicators"
+        >
+          Go up</a>
+        </div>
+        </div>
+    
+
+    </div>
+   
+      <!-- Modal for Register -->
+      <div
+        class="modal fade"
+        id="registerModal"
+        data-bs-keyboard="true"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content bg-dark">
+            <div class="modal-header">
+              <h3 class="modal-title text-success" id="staticBackdropLabel">
+                Sign up
+              </h3>
+              <button
+                type="button"
+                class="btn-close btn-danger"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form action="home.html">
+                <div class="mb-3 text-start">
+                  <label for="email" class="form-label">Email address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    aria-describedby="emailHelp"
+                    placeholder="name@example.com"
+                  />
+                </div>
+                <div class="mb-3 text-start">
+                  <label for="pass" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="pass" />
+                </div>
+                <div class="mb-3 text-start">
+                  <label for="confirmPass" class="form-label"
+                    >Confirm password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="confirmPass"
+                  />
+                </div>
+                <div class="mb-3 text-start">
+                  <label for="phone" class="form-label">Phone</label>
+                  <div class="input-group">
+                    <span class="input-group-text" id="checkPhone">+20</span>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="phone"
+                      aria-describedby="phoneNumber"
+                      required
+                    />
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-success btn-lg">
+                  Sign up
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

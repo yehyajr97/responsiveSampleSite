@@ -1,0 +1,50 @@
+$fontColor: aliceblue;
+$subColor:#212529;
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Squada One", cursive;
+  color: $fontColor;
+}
+#title {
+  font-size: 100px;
+}
+
+#log {
+  width: 7em;
+  font-size: 2em;
+}
+img.hover-shadow {
+  transition: 0.3s;
+}
+.hover-shadow:hover {
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.changeBrand {
+  font-size: 2.1em !important;
+}
+
+.navbar-nav li{
+  padding-left:2em;
+  
+}
+.changeFont {
+  font-size: 1.5em !important;
+}
+ .dropdown-menu li{
+  padding-left:0;
+  
+}
+.carousel-item img {
+  height: 30em !important;
+  width: 100% !important;
+}
+#join{
+  color:$subColor;
+  
+}
+.carousel-indicators button.active {
+  background-color: #198754;
+}
